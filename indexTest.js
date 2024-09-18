@@ -1,12 +1,12 @@
-// test/root.js
+// test/indexTest.js
 
 // Require the setup file
-require('../test-setup'); // Adjust the path if necessary
+require('../test-setup-dir/test-setup');
 
 const { expect } = require('chai');
 
-describe('Root Test', () => {
-  it('should pass this root test case', () => {
+describe('Index Test', () => {
+  it('should pass this index test case', () => {
     const element = document.createElement('div');
     expect(element).to.be.an.instanceof(HTMLElement);
   });

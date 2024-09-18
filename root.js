@@ -1,7 +1,7 @@
 // test/root.js
 
 // Require the setup file
-require('../test-setup'); // Adjust the path if necessary
+require('../test-setup-dir/test-setup');
 
 const { expect } = require('chai');
 
